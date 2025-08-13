@@ -2,7 +2,7 @@ describe('login', () => {
   beforeEach(() => {
      // Arrange
     cy.visit('/')
-    //cy.screenshot('apos-visitar-pagina')
+    cy.screenshot('apos-visitar-pagina')
 
   })
   
